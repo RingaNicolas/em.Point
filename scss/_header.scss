@@ -1,0 +1,30 @@
+/* HEADER */
+
+header {
+    background-color: $colorGrisClaro;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    transition: all 0.5s;
+
+    &:hover {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+.navegador {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $colorGrisOscuro;
+    font-size: 1.20rem;
+    transition: all 0.4s;
+    margin: 10px;
+
+    &:hover {
+        transform: scale(1.04, 1.04);
+        color: $colorRojo;
+    }
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER */
+header {
+  background-color: #CBCCCF;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  transition: all 0.5s;
+}
+.logo:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.navegador {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #565B6B;
+  font-size: 1.2rem;
+  transition: all 0.4s;
+  margin: 10px;
+}
+.navegador:hover {
+  transform: scale(1.04, 1.04);
+  color: #EA5153;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background-color: #CBCCCF;
+  padding-bottom: 0px;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 10px;
+  transition: all 0.6s;
+}
+footer ul li i {
+  color: #565B6B;
+}
+footer ul li:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.atribucion {
+  font-size: x-small;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+}
+
+.contenedorPrincipal {
+  background-color: #EA5153;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+/*# sourceMappingURL=estilo.css.map */
